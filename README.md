@@ -19,3 +19,14 @@ Step 2 : Spread component (SpreadJS Component) can be initialised using the foll
 
 		Now Spread is added to the div with id ='ss'
 
+Step 3 : The Same functionality of initialising the Spread component using JS function is replaced by Jquery function i.e, onload() is replaced with ready().
+
+
+Spread Sheet
+===================
+
+Step 1 : Add new Sheets to Spread. This is done by following function :
+	
+		spread.addSheet(spread.getSheetCount()); 
+
+
