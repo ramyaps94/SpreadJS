@@ -12,4 +12,8 @@ $(document).ready(function() {
 		spread.removeSheet(0);
 	});
 
+	$("#btnClearSheets").click(function() {
+		spread.clearSheets();
+	});
+
 });

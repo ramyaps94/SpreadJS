@@ -22,11 +22,19 @@ Step 2 : Spread component (SpreadJS Component) can be initialised using the foll
 Step 3 : The Same functionality of initialising the Spread component using JS function is replaced by Jquery function i.e, onload() is replaced with ready().
 
 
-Spread Sheet
+Spread Sheet Basics
 ===================
 
 Step 1 : Add new Sheets to Spread. This is done by following function :
 	
 		spread.addSheet(spread.getSheetCount()); 
+
+Step 2 : Remove Sheets from the Spread i.e, it removes the very first sheet with lowest index :
+		
+		spread.removeSheet(0);
+
+Step 3 : Clear all the sheets from the Spread.
+
+		spread.clearSheets();
 
 
