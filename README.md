@@ -37,4 +37,8 @@ Step 3 : Clear all the sheets from the Spread.
 
 		spread.clearSheets();
 
+Step 4 : Set the Active Sheet Index.
+
+		spread.setActiveSheetIndex(index);
+
 
