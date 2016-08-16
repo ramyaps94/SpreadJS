@@ -5,7 +5,11 @@ $(document).ready(function() {
 	spread.setSheetCount(2);
 
 	$("#btnAddSheet").click(function() {
-	spread.addSheet(spread.getSheetCount());
+		spread.addSheet(spread.getSheetCount());
+	});
+
+	$("#btnRemoveSheet").click(function() {
+		spread.removeSheet(0);
 	});
 
 });
